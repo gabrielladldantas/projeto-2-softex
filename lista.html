@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lista</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown"><a href="javascript:void(0) class=droptn">Produtos</a>
+                        <div class="dropdown-content">
+                            <a href="./cadastro.html" target="_blank">Cadastro</a>
+                            <a href="./lista.html" target="_blank">Lista</a>
+                        </div>
+                    </li>
+                    <li><a href="/contatos.html">Contatos</a></li>
+                </ul>
+
+            </nav>
+    </header>
+    <br><br><br><br>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Categoria</th>
+                    <th>Origem</th>
+                    <th>Lote</th>
+                    <th>Data de Validade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaProdutos"></tbody>
+        </table>
+    </main>
+    </div>
+
+
+    <script src="./js/lista.js"></script>
+</body>
+
+</html>

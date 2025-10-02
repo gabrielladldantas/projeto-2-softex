@@ -1,0 +1,279 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #efefdd;
+    color: #715b4f;
+    padding: 0;
+}
+form {
+    margin-bottom: 20px;
+}
+input {
+    margin-right: 10px;
+    padding: 5px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    color: #715b4f;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+ th, td {
+    padding: 8px;
+    border: 1px solid #715b4f;
+    text-align: left;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#bcd2e5;
+    
+}
+ul li {
+    float: left;
+    
+    
+    
+}
+li a {
+  display:inline-block;
+  color: #715b4f;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 0;
+}
+    
+.vetor {
+    width: 30px;
+    margin-left: 10px;
+    ;
+    
+}
+
+/* li a, dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px; */
+/* } */
+/* ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+ } */
+
+li a:hover .dropdown:hover .dropbtn {
+    background-color:  white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #bcd2e5; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px  #715b4f;
+   
+}
+.dropdown-content a {
+    color: #715b4f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .form {
+    position: relative;
+    width: 10px;
+} */
+ 
+h1 {
+    background-color:#bcd2e5;
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+    
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #715b4f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+label {
+    font-size: 20px;
+    color: #715b4f;
+}
+
+footer {
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    background-color:#e9e4e4;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#f1f1f1 ;
+    
+}
+
+
+ ul li {
+    float: left;
+    
+ }
+
+ ul li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ul li a:hover {
+    background-color: #948b8b;
+}
+
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height:570px;
+    
+}
+/* colocar media para responsivdade */
+ /* p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color:rgb(8, 8, 8);
+  bottom: 0;
+  position: fixed;
+  width: 90%;
+
+  }
+
+  a {
+    text-decoration: none;
+     color:black;
+  }
+
+main {
+   display: grid;
+   grid-area: content;
+   position: fixed;
+   bottom: 0;
+   
+}
+article {
+    position: fixed;
+    bottom: 0;
+}  */ 
